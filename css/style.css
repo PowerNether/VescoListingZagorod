@@ -632,6 +632,14 @@ footer .footerBottom__text {
   color: #4D4D4D;
 }
 
+.page-node-3 .leftColumn {
+  opacity: 0;
+}
+
+.page-node-3 .leftColumn.active {
+  opacity: 1;
+}
+
 .page-node-3 .sorting {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2234,6 +2242,7 @@ footer .footerBottom__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  opacity: 0;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -2244,6 +2253,7 @@ footer .footerBottom__text {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+  opacity: 1;
 }
 
 .selection__items {
